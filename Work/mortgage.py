@@ -11,4 +11,4 @@ while principal > 0:
     principal = principal * (1+rate/12) - payment
     total_paid = total_paid + payment
 
-print('Total paid', total_paid)
+print(f'Total paid {total_paid:0.2f}')
